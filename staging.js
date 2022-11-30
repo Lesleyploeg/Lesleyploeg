@@ -11,10 +11,10 @@ function w() {
 }
 e.version, e.build, e.device, e.version;
 const l = {
-  name: "EnableStaging",
-  version: "2.0.2",
-  description: "Bypasses experiment gate. Fuck you aj.",
-  authors: [{ name: "dia \u2661", id: "696828906191454221" }],
+  name: "Discord Developer",
+  version: "22.0.2",
+  description: "Discord Developer.",
+  authors: [{ name: "Lesley \u2661", id: "696828906191454221" }],
   color: "#a0939d",
   onStart() {
     const o = i("getUsers"),
@@ -35,8 +35,8 @@ const l = {
   },
   onStop() {
     s.show({
-      title: "Experiments Disabled.",
-      body: "Disabling Experiments requires a restart, would you like to restart Discord?",
+      title: "Developer Disabled.",
+      body: "Disabling requires a restart, would you like to restart Discord?",
       confirmText: "Yes",
       cancelText: "No",
       onConfirm: w,
